@@ -1,22 +1,18 @@
 execution:
-  - concurrency: 10
-    hold-for: 5m
-    ramp-up: 2m
-    scenario: yaml_example
-
+- concurrency: 10
+  hold-for: 5m
+  ramp-up: 2m
+  scenario: yaml_example
 scenarios:
   yaml_example:
     retrieve-resources: false
     requests:
-      - http://example.com/
-
+    - http://example.com/
 reporting:
-  - module: final-stats
-  - module: console
-
+- module: final-stats
+- module: console
 settings:
   check-interval: 5s
   default-executor: jmeter
-
 provisioning: local
-timestamp: "12-07-2020 12:25:59"
+timestamp: 2019.05.23.12.26.53
