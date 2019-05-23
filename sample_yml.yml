@@ -15,4 +15,4 @@ settings:
   check-interval: 5s
   default-executor: jmeter
 provisioning: local
-timestamp: 2019.05.23.12.26.53
+timestamp: 2019.05.23.13.02.49
