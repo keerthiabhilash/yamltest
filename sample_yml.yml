@@ -16,3 +16,4 @@ settings:
   default-executor: jmeter
 provisioning: local
 timestamp: 2019.05.23.13.02.49
+timestamp-ee :2019.05.28.08.56.40
